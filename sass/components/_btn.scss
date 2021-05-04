@@ -1,0 +1,13 @@
+.btn {
+  width: 160px;
+  height: 40px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  @include font(12px, 16px, 0.09em, 600);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.btn--dark-theme {
+  color: #fff;
+}

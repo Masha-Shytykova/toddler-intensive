@@ -1,0 +1,35 @@
+.services {
+  background-color: #111319;
+  background-image: url(../images/services/img-mobile.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 480px;
+  height: 826px;
+  margin: 0 auto;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/services/img-mobile@2x.png);
+  }
+}
+.services__list {
+  margin-bottom: 50px;
+  padding: 30px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+.services__item {
+  display: flex;
+  justify-content: space-between;
+  @include font(14px, 30px, 0.02em, 400);
+  color: var(--dark-theme-text-color);
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.services__btn {
+  display: block;
+  margin: 0 auto;
+}

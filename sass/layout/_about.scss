@@ -1,0 +1,16 @@
+.about__title {
+  margin-bottom: 20px;
+  max-width: 330px;
+  font-family: var(--title-font);
+  @include font(28px, 33px, 0.05em, 700);
+}
+
+.about__description {
+  margin-bottom: 20px;
+}
+
+.about__text {
+  @include font(14px, 26px, 0.02em, 400);
+  color: var(--white-theme-text-color);
+  margin-bottom: 40px;
+}

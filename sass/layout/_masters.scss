@@ -1,0 +1,51 @@
+.masters {
+  background-color: #f7f7f7;
+}
+
+.masters__item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.masters__wrapper {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.masters__name {
+  margin-bottom: 8px;
+  @include font(18px, 25px, 0.02em, 400);
+}
+
+.masters__position {
+  margin-bottom: 30px;
+  @include font(14px, 19px, 0.02em, 400);
+  color: var(--accent-color);
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+.social__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social__link:hover,
+.social__link:focus {
+  fill: var(--accent-color);
+}
