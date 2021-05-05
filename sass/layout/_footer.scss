@@ -1,0 +1,22 @@
+.address-list {
+  margin-bottom: 44px;
+}
+.address__link {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @include font(18px, 30px, 0.02em, 400);
+  color: var(--white-theme-text-color);
+  fill: var(--white-theme-text-color);
+}
+
+.address__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.footer .social-links__item:last-child {
+  margin-left: 44px;
+}

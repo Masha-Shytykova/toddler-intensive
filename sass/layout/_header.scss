@@ -15,7 +15,11 @@
   padding: 0;
   border: none;
   background-color: transparent;
-  fill: #ffffff;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .mobile-menu {
@@ -64,6 +68,11 @@
   padding: 0;
   border: none;
   background-color: transparent;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 .mobile-menu__item:not(:last-child) {
   margin-bottom: 24px;
