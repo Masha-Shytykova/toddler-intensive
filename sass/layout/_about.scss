@@ -14,3 +14,23 @@
   color: var(--white-theme-text-color);
   margin-bottom: 40px;
 }
+
+.about__list {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 35px;
+  }
+}
+
+.about__item {
+  @media screen and (min-width: 768px) {
+    width: 330px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
